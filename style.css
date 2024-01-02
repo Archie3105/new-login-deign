@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+.login {
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 25vh;
+}
+form {
+  border: 2px solid #fff;
+  border-radius: 20px;
+  width: 40vw;
+  height: auto;
+  margin: 1em 1em;
+  padding: 1em;
+  /* display: none; */
+}
+#name,
+#pass,
+#email {
+  width: 100%;
+  border-radius: 10px;
+  padding: 1em;
+  margin: 0.5em 0;
+  border: none;
+  font-size: 1em;
+}
+#checkfor {
+  display: flex;
+  margin-top: 0.3em;
+  justify-content: space-between;
+}
+
+.btn {
+  color: #fff;
+  padding: 15px 25px;
+  background-color: #38d2d2;
+  background-image: radial-gradient(
+      93% 87% at 87% 89%,
+      rgba(0, 0, 0, 0.23) 0%,
+      transparent 86.18%
+    ),
+    radial-gradient(
+      66% 66% at 26% 20%,
+      rgba(255, 255, 255, 0.55) 0%,
+      rgba(255, 255, 255, 0) 69.79%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  box-shadow: inset -3px -3px 9px rgba(255, 255, 255, 0.25),
+    inset 0px 3px 9px rgba(255, 255, 255, 0.3),
+    inset 0px 1px 1px rgba(255, 255, 255, 0.6),
+    inset 0px -8px 36px rgba(0, 0, 0, 0.3),
+    inset 0px 1px 5px rgba(255, 255, 255, 0.6), 2px 19px 31px rgba(0, 0, 0, 0.2);
+  border-radius: 14px;
+  font-weight: bold;
+  font-size: 16px;
+  border: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 35px;
+  padding: 0.7em;
+  font-size: large;
+  border: 0;
+  margin: 0.5em 0;
+}
+.btn:hover {
+  background-color: #329f9f;
+}
+#bottom {
+  text-align: center;
+  padding: 0.2em;
+  font-size: large;
+  font-weight: 500;
+}
+.btn2 {
+  border: 0;
+  background-color: transparent;
+  text-decoration: underline;
+  color: #fff;
+  padding: 0.2em;
+  font-size: large;
+}
+.btn2:hover {
+  color: rgb(133, 73, 73);
+}
+a {
+  color: #fff;
+}
+a:hover {
+  color: rgb(133, 73, 73);
+}
+
+.password-container {
+  position: relative;
+}
+
+.password-input {
+  padding-right: 30px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 1em;
+  margin: 0.5em 0;
+  border: none;
+  font-size: 1em;
+}
+
+.eye-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.signup {
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 25vh;
+}
+.forget {
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 25vh;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <Section class="login">
+        <form action="/action_page.php">
+            <div> 
+                <input type="text" id="name" placeholder="Name" required>
+            </div>
+            <div class="password-container">
+                <input type="password" id="passwordInput" class="password-input" placeholder="Password" required>
+                <span class="eye-icon" id="togglePassword" onclick="togglePasswordVisibility()">
+                    👀 Show
+                </span>
+            </div>
+            <div id="checkfor">
+                <div style="color: rgb(105, 102, 102);">
+                    <input type="checkbox" name="eligibility">Remember me
+                </div>
+                <a href="forget.html    ">Forget Password?</a>
+            </div>
+            <div>
+                <button class="btn" type="submit" role="button">Sign in </button></div>
+                <div id="bottom">
+                    <p style="color: rgb(105, 102, 102);">Don't have an account?<a class="btn2" type="button"  onclick="signUpPage()" href="signup.html" >Sign up</a>
+                    </p>
+                </div>
+        </form>
+    </Section>
+    
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
